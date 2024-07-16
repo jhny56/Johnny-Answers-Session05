@@ -12,3 +12,9 @@ ros2 pkg create --build-type ament_python temperature_monitor
 
 used timer to publish random temperatures.
 used spin to keep the node running.
+
+4) the log node checks for the published msgs on topic temperature and save them in a text file.]
+
+so basically: 
+temp pub --> temp topic --> thresh sub/pub --> alert_trigger topic --> alert sub/pub --> alert topic
+                        --> temp log sub --> tmp log.txt
