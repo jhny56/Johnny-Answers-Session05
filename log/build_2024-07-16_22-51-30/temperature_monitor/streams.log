@@ -1,0 +1,47 @@
+[1.197s] Invoking command in '/home/robot/Desktop/Session05/Johnny-Answers-Session05/src/temperature_monitor': PYTHONPATH=/home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/temperature_monitor build --build-base /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build install --record /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/install.log --single-version-externally-managed install_data
+[1.609s] running egg_info
+[1.609s] creating ../../build/temperature_monitor/temperature_monitor.egg-info
+[1.609s] writing ../../build/temperature_monitor/temperature_monitor.egg-info/PKG-INFO
+[1.610s] writing dependency_links to ../../build/temperature_monitor/temperature_monitor.egg-info/dependency_links.txt
+[1.610s] writing entry points to ../../build/temperature_monitor/temperature_monitor.egg-info/entry_points.txt
+[1.610s] writing requirements to ../../build/temperature_monitor/temperature_monitor.egg-info/requires.txt
+[1.611s] writing top-level names to ../../build/temperature_monitor/temperature_monitor.egg-info/top_level.txt
+[1.611s] writing manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[1.613s] reading manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[1.615s] writing manifest file '../../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[1.615s] running build
+[1.616s] running build_py
+[1.616s] creating /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build
+[1.616s] creating /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build/lib
+[1.616s] creating /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build/lib/temperature_monitor
+[1.617s] copying temperature_monitor/threshold_subscriber.py -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build/lib/temperature_monitor
+[1.617s] copying temperature_monitor/temperature_publisher.py -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build/lib/temperature_monitor
+[1.617s] copying temperature_monitor/__init__.py -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build/lib/temperature_monitor
+[1.617s] copying temperature_monitor/alert_publisher.py -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build/lib/temperature_monitor
+[1.618s] running install
+[1.618s] running install_lib
+[1.620s] creating /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+[1.621s] copying /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build/lib/temperature_monitor/threshold_subscriber.py -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+[1.621s] copying /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build/lib/temperature_monitor/temperature_publisher.py -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+[1.621s] copying /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build/lib/temperature_monitor/__init__.py -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+[1.621s] copying /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build/lib/temperature_monitor/alert_publisher.py -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+[1.622s] byte-compiling /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/threshold_subscriber.py to threshold_subscriber.cpython-310.pyc
+[1.622s] byte-compiling /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/temperature_publisher.py to temperature_publisher.cpython-310.pyc
+[1.622s] byte-compiling /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/__init__.py to __init__.cpython-310.pyc
+[1.623s] byte-compiling /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/alert_publisher.py to alert_publisher.cpython-310.pyc
+[1.624s] running install_data
+[1.624s] creating /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/share/ament_index
+[1.624s] creating /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/share/ament_index/resource_index
+[1.625s] creating /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/share/ament_index/resource_index/packages
+[1.625s] copying resource/temperature_monitor -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/share/ament_index/resource_index/packages
+[1.625s] copying package.xml -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/share/temperature_monitor
+[1.625s] creating /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/share/temperature_monitor/launch
+[1.626s] copying launch/temperature_monitor_launch.py -> /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/share/temperature_monitor/launch
+[1.626s] running install_egg_info
+[1.628s] Copying ../../build/temperature_monitor/temperature_monitor.egg-info to /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor-0.0.0-py3.10.egg-info
+[1.632s] running install_scripts
+[1.666s] Installing alert_publisher script to /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/temperature_monitor
+[1.667s] Installing temperature_publisher script to /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/temperature_monitor
+[1.667s] Installing threshold_subscriber script to /home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/temperature_monitor
+[1.667s] writing list of installed files to '/home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/install.log'
+[1.698s] Invoked command in '/home/robot/Desktop/Session05/Johnny-Answers-Session05/src/temperature_monitor' returned '0': PYTHONPATH=/home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Desktop/Session05/Johnny-Answers-Session05/install/temperature_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/temperature_monitor build --build-base /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/build install --record /home/robot/Desktop/Session05/Johnny-Answers-Session05/build/temperature_monitor/install.log --single-version-externally-managed install_data
